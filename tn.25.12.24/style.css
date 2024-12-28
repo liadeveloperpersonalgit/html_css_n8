@@ -1,0 +1,48 @@
+.genBlock{
+    border: 1px solid;
+    width: 100%;
+    height: 890px;
+}
+.block, .blockImg{
+    border: 1px solid;
+    width: 31%;
+    height: 420px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 22px;
+    float: left;
+}
+.block img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.block b{
+    display: block;
+}
+.block button{
+    display: block;
+    background: black;
+    color: white;
+    height: 26px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.blockImg img{
+    width: 120px;
+    height: 120px;
+    margin-top: 5px;
+    margin-left: 5px;
+    object-fit: cover;
+}
+.blockImg b{
+    display: block;
+}
+.elem{
+    background: rgb(190,190,190);
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
